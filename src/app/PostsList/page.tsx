@@ -25,7 +25,7 @@ export default function PostsList() {
   }, [])
 
   return (
-    <Grid2 container xs={12} rowGap={8} columnGap={2} sx={{ padding: 4}}>
+    <Grid2 container xs={12} spacing={4} rowSpacing={8} sx={{ padding: 4}}>
       {posts?.map((post) => (
         <Grid2 xs={12} sm={6} md={4} key={post.id}>
           <Card sx={{            
